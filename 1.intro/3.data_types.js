@@ -18,3 +18,34 @@
 // Primitive Data Types: They can hold a single simple value. String, Number, BigInt, Boolean, undefined, null, and Symbol are primitive data types.
 
 // Non-Primitive Data Types: They can hold multiple values. Objects are non-primitive data types.
+
+
+//JS STRING:
+ //A string represent textual data. it contains a sequence of characters. for ex "hell", "js"etc
+
+ //In js, strings are surrounded by quates:
+    //string enclosed within single quotes
+    const youtuber = 'speed';
+
+  //string enclosed within double quotes
+    const name = "Darren Jason Watkins Jr.";
+
+  // string enclosed within backticks
+    const cars =  `10`;
+
+ 
+ //JS NUMBER:
+ //In js, the numbers type reprsents numeric values(both integers and flooting points numbers).
+ 
+ // INTEGERS - Numeric values without any decimal parts. example: 3, -74,etc
+ // FLOATING POINT - Numeric values with decimal parts. example: 3.14, -74.20,etc
+
+
+ //integer values
+ let integer_num = -3;
+
+ //floating-points value
+ let float_num = 2.3;
+
+
+ 
