@@ -43,17 +43,17 @@ console.log("Exponentiation: x ** 3 =", x ** 3); //Note: The increment operator 
 // 2. JavaScript Assignment Operators:
   // We use assignment operators to assign values to variables. For example,
 //   Commonly Used Assignment Operators
-// Operator	        Name	                            Example
-//  =	            Assignment Operator	                a = 7;
+// Operator	        Name	                              Example
+//  =	              Assignment Operator	                a = 7;
 //  +=	            Addition Assignment	                a += 5;  // a = a + 5
 //  -=	            Subtraction Assignment	            a -= 2;  // a = a - 2
-//  *=	            Multiplication Assignment	        a *= 3;  // a = a * 3
+//  *=	            Multiplication Assignment	          a *= 3;  // a = a * 3
 //  /=	            Division Assignment	                a /= 2;  // a = a / 2
-//  %=	            Remainder Assignment	            a %= 2;  // a = a % 2
-//  **=	            Exponentiation Assignment	        a **= 2;  // a = a**2
+//  %=	            Remainder Assignment	              a %= 2;  // a = a % 2
+//  **=	            Exponentiation Assignment	          a **= 2;  // a = a**2
 
 
-// assignment operator
+// assignment operators
 let a = 7;
 console.log("Assignment: a = 7, a =", a);
 
@@ -96,9 +96,23 @@ console.log(a>b)
 // Operator	    Meaning	                         Example
 //  ==	        Equal to	                     3 == 5 gives us false
 //  !=	        Not equal to	                 3 != 4 gives us true
-//  >	        Greater than	                 4 > 4 gives us false
-//  <	        Less than	                     3 < 3 gives us false
+//  >	        Greater than	                   4 > 4 gives us false
+//  <	        Less than	                       3 < 3 gives us false
 //  >=	        Greater than or equal to	     4 >= 4 gives us true
 //  <=	        Less than or equal to	         3 <= 3 gives us true
 //  ===	        Strictly equal to	             3 === "3" gives us false
 //  !==	        Strictly not equal to	         3 !== "3" gives us true
+
+
+///equal to operator
+console.log(3===5);
+
+
+
+// 4. JavaScript Logical Operators
+// We use logical operators to perform logical operations on boolean expressions. For example,
+
+const x =5 ; y=3;
+console.log((x<6) && (y<5));
+
+
